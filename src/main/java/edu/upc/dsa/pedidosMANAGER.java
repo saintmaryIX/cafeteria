@@ -10,4 +10,13 @@ public interface pedidosMANAGER {
     public void añadirProductoalmercado(Producto nuevo);
     public Pedido servirPedido();
 
+    public Queue<Pedido> getPedidoscola();
+
+    public List<Producto> getProductosqsevenden();
+
+    public List<User> getUsuarioscreados();
+
+    public void setUsuarioscreados(List<User> usuarioscreados);
+
+
 }

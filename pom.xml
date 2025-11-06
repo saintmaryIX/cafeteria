@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>edu.upc.dsa</groupId>
-    <artifactId>cafeteria</artifactId>
+    <artifactId>rest-example2</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>rest-example2</name>
@@ -45,12 +45,6 @@
         </dependency>
 
         <dependency>
-            <groupId>net.moznion</groupId>
-            <artifactId>random-string</artifactId>
-            <version>1.1.0</version>
-        </dependency>
-
-        <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-moxy</artifactId>
         </dependency>
@@ -69,6 +63,16 @@
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
             <version>2.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>swagger-ui</artifactId>
+            <version>3.52.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>webjars-locator-core</artifactId>
+            <version>0.50</version>
         </dependency>
 
 
